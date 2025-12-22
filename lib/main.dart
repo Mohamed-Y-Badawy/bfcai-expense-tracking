@@ -1,4 +1,6 @@
+import 'package:expenseapp/pages/login.dart';
 import 'package:expenseapp/pages/onboarding.dart';
+import 'package:expenseapp/pages/signup.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Onboarding(),
+      home: SignUp(),
     );
   }
 }
