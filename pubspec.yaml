@@ -40,6 +40,7 @@ dependencies:
   shared_preferences: ^2.5.4
   cloud_firestore: ^6.1.1
   fl_chart: ^0.66.2
+  intl: ^0.18.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -71,7 +72,7 @@ flutter:
     - images/boy1.jpg
     - images/like.png
     - images/onboard1.png
-
+    - images/Profile_Picture_DropJPG_2.jpg
 
   #   - images/a_dot_ham.jpeg
 
