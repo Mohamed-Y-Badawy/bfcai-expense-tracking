@@ -1,6 +1,10 @@
+
 import 'package:expenseapp/pages/home.dart';
 import 'package:expenseapp/pages/onboarding.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:expenseapp/pages/login.dart';
+import 'package:expenseapp/pages/onboarding.dart';
+import 'package:expenseapp/pages/signup.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Home(),
+      home: SignUp(),
     );
   }
 }
